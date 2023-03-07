@@ -1,0 +1,209 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Poppins', sans-serif; 
+    
+}
+body{
+    position: relative
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    background-color:#444445;
+    color: beige;
+    height: 50px;
+    width: 100rem;
+    position: fixed;
+    top: 0;
+
+
+}
+a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 20px 10px;
+    color: #bebebe;
+}
+a:hover{
+color: blue;
+}
+i:hover{
+    transform: scale(0.9);
+    color: orangered;
+}
+.section-1 a{
+    color: rgb(26, 157, 194);
+    font-size: 20px;
+}
+.section-1 a:hover{
+text-decoration: underline;
+}
+i{
+    color: antiquewhite;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: ;
+    background-color: black;
+    /* height: 30rem; */
+    padding-top: 90px;
+    flex-wrap: wrap;
+}
+.pro{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    color: beige;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+img{
+    width: 45rem;
+    height: 30rem;
+    
+}
+h2{
+    font-size: 20px;
+    
+}
+.section-2 a{
+    color: rgb(26, 157, 194);
+    font-size: 20px;
+}
+.section-2 a:hover{
+text-decoration: underline;
+}
+i{
+    color: antiquewhite;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(23, 133, 230);
+    /* height: 30rem; */
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    /* height: 30rem; */
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.head2{
+    color: #121212;
+}
+.pro2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: #121212;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-2 a{
+    color:#0066cc ;
+}
+.pro2 h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-3 a{
+    color: rgb(26, 157, 194);
+    font-size: 20px;
+}
+.section-3 a:hover{
+text-decoration: underline;
+}
+.section-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+    /* height: 30rem; */
+    padding: 40px;
+    flex-wrap: wrap;
+}
+.section-3 a{
+    color:#0066cc ;
+    /* font-size: 30rem; */
+}
+.head22{
+    color: aliceblue;
+    font-size: 60px;
+}
+.pro22 h2{
+    color: azure;
+    font-size: 28px;
+}
+.textmac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px 20px;
+}
+.ig{
+    width: 80%;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    background-color: black;
+    margin:10px 10px;
+    padding: 50px;
+}
+.hh{
+    color: white;
+    font-size: 45px;
+}
+.div111 h2{
+    color: beige;
+}
+.div111 a:hover{
+    color: #0066cc;
+}
+.div2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 40px;
+    /* background-color: black; */
+}
+.h{
+    color:black;
+    font-size: 45px;
+}
+.div111 h2{
+    color: beige;
+}
+.div111 a:hover{
+    color: #0066cc;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10rem;
+    padding: 5rem;
+    background-color: rgba(128, 128, 128, 0.322);
+}
